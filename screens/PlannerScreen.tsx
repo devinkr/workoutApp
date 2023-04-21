@@ -1,12 +1,10 @@
 import React from 'react';
-import {Text, View, Button} from 'react-native';
-import {NativeStackHeaderProps} from '@react-navigation/native-stack/lib/typescript/src/types';
+import {Text, View} from 'react-native';
 
-export default function PlannerScreen({navigation}: NativeStackHeaderProps) {
+export default function PlannerScreen() {
   return (
     <View>
       <Text>I am a planner screen</Text>
-      <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
     </View>
   );
 }
